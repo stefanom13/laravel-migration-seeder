@@ -1,7 +1,7 @@
 <?php
 use App\models\Train;
 use Illuminate\Database\Seeder;
-use Faker\generator as Faker;
+use Faker\Generator as Faker;
 
 class TrainTableSeeder extends Seeder
 {
@@ -12,9 +12,9 @@ class TrainTableSeeder extends Seeder
      */
     public function run(Faker $Faker)
     {
-        $aziende = ['TrenItalia', 'Italo', 'TrainEurope',];
+        $aziende = ['TrenItalia', 'Italo', 'TrainEurope'];
 
-        for ($i=0; $i < 50 ; $i++) { 
+        for ($i=0; $i < 15 ; $i++) { 
             
             $train = new Train();
             
