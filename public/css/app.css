@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  display: contents;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(112, 3, 3);
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  border: 2px solid green;
+}
+
+.container .trains {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.container .trains div {
+  width: 136px;
+  padding-bottom: 5px;
+}
+
+.container .trains div .codT {
+  color: lightcoral;
+  display: block;
+}
+
+.container .trains div p {
+  color: lightgreen;
+}
+
